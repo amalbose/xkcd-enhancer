@@ -1,0 +1,1 @@
+$(".comicNav").append("<li><a id='explainLink'>Explain this Comic</a></li>");
