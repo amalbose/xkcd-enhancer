@@ -10,10 +10,11 @@
 	"content_scripts": [
         {
         "matches": [
-            "*://www.xkcd.com/*"
+            "*://www.xkcd.com/*",
+			"*://xkcd.com/*"
             ],
-        "js": ["js/jquery-2.1.4.min.js", "js/content.js"],
-		"css": ["style.css"],
+        "js": ["js/jquery-2.1.4.min.js", "js/jquery-ui.min.js", "js/content.js"],
+		"css": ["style/jquery-ui.css","style/style.css"],
         "run_at": "document_end"  
         }
     ],
