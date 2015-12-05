@@ -1,6 +1,6 @@
 $(".comicNav").append("<li><a id='explainLink' class='js-open-modal href='#' data-modal-id='popup'>Explain this Comic</a></li>");
 
-$("html").prepend('<div id="popup" class="modal-box">  <header><a href="#" class="js-modal-close close">×</a></header><div class="modal-body"><iframe id="xpiFrame" src="" width="100%" height="700px"></iframe></div></div>');
+$("html").prepend('<div id="popup" class="modal-box">  <header><a href="#" class="js-modal-close close">×</a></header><div class="modal-body"><iframe id="xpiFrame" src="" width="100%" height="650px"></iframe>></div><footer id="footer">xkcd-enhancer</footer</div>');
 
 $(function(){
 var appendthis =  ("<div class='modal-overlay js-modal-close'></div>");

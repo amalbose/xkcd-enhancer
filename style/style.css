@@ -61,6 +61,10 @@ a.close {
   color: #bbb;
 }
 
+#footer {
+	color: #bbb;
+}
+
 a.close:hover {
   color: #222;
   -webkit-transition: color 1s ease;
